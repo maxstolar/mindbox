@@ -1,0 +1,1 @@
+import{a as o}from"./chunk-index-B9ygI19o.js";const s=async(e,r)=>{try{return(await o.post(e,r,{headers:{"X-CSRF-TOKEN":document.querySelector('meta[name="csrf-token"]').getAttribute("content")}})).data}catch(t){throw console.warn("Ошибка запроса",e,r,t),t}};export{s as a};

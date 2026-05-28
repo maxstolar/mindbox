@@ -1,0 +1,1 @@
+import{g as o,c as a,b as r,d as i,e as s,f as n}from"./chunk-helperFunctions--wMv-ADD.js";function d(){const t={},e=o();return Object.keys(e).length>0&&(t.registeredattribution=a(e),t.utm=e),t.googleClientId=r(),t.metrikaid=i(),t.firstmetrikaid=i(),t.currentEntrancePoint=s(),t.deviceUUID=n("mindboxDeviceUUID")||n("deviceUUID")||void 0,t}export{d as g};

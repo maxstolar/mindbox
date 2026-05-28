@@ -1,0 +1,1 @@
+const c={name:"intersection",mounted(e,r){const s={rootMargin:"0px",threshold:0},o=i=>{i.forEach(t=>{t.isIntersecting&&r.value(t)})},n=new IntersectionObserver(o,s);n.observe(e),e._intersectionObserver=n},unmounted(e){e._intersectionObserver&&(e._intersectionObserver.disconnect(),delete e._intersectionObserver)}};export{c as V};
