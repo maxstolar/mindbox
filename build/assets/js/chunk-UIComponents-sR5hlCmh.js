@@ -1,1 +1,0 @@
-import{c as t}from"./chunk-ui-components-CQGXbhKW.js";class s{constructor(e,o){const r=document.querySelectorAll(e);typeof r<"u"&&this.render(r,o)}render(e,o){e.forEach(r=>{t(o,{props:{container:r}}).mount(r)})}}export{s as U};
